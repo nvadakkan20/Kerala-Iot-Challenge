@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/nvadakkan20/Kerala-Iot-Challenge/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### This site is to document the projects and experiments done as a part of kerala iot challenge.Kerala IoT Challenge is a program designed in 4 levels followed by a hackathon to identify and train quality industry leaders in the IoT domain, while any novice learner can start with layer 1 and others can enter laterally to the desired layer after an evaluation.
 
-### Markdown
+<br/>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## ABOUT ME
+### Myself NIHAL VADAKKAN Btech Computer Science And Engineering Student At Cochin University Of Science And Technology, Ernakulam, Kerala, India. I love to learn tehnology and try new things. Iam passionate about computer science. Iam a web developer. Iam always ready to work on cool projects and contribute to open source. Feel free to contact me for collaboration or any kind of stuffs related to computer science. connect with me through [LinKedin](https://github.com/nvadakkan20)
+
+## Exp 1 : Hello World LED Blinking
+
+### CODE
+
+This is the code for experiment 1.
 
 ```markdown
-Syntax highlighted code block
+int ledPin = 10; // define digital pin 10.
+void setup()
+{
+pinMode(ledPin, OUTPUT);// define pin with LED connected as output.
+}
+void loop()
+{
+digitalWrite(ledPin, HIGH); // set the LED on.
+delay(1000); // wait for a second.
+digitalWrite(ledPin, LOW); // set the LED off.
+delay(1000); // wait for a second
+}
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nvadakkan20/Kerala-Iot-Challenge/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
