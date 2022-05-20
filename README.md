@@ -540,7 +540,7 @@ digital_9();// display number 9
 delay(1000); // wait for 1s
 }}
 ```
-# PROJECTS:
+# <u>PROJECTS:</u>
 ### This section contains the projects done after doing experiments of kerala iot challenge level 1
 ## 1.Create an automatic night lamp model using LDR and LED:
 ```markdown
